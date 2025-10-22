@@ -307,22 +307,19 @@ body {
 }
 
 footer {
-    background-color: var(--card-bg); /* Corregido de --bg-dark a --card-bg */
+    background-color: var(--card-bg);
     color: var(--text-light);
     padding: 40px 60px;
-
     .footer-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
-
         .footer-logo {
             display: flex;
             align-items: center;
             gap: 15px;
-
             img {
                 width: 40px;
             }
@@ -330,7 +327,6 @@ footer {
                 margin: 0;
             }
         }
-
         .footer-social {
             a {
                 display: inline-block;
